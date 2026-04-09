@@ -1,27 +1,24 @@
 REM Title: Open Link
-REM Author:	mrproxy (minor modz by CYB3RW07F)
-REM Description: Opens Spotlight, inputs the link, opens it.
+REM Author:	CYB3RW07F
+REM Description: Opens Safari, inputs given link and visits it.
 REM Target:	Apple iOS (iPhone, iPad)
-REM Version:	2.0
+REM Version:	1.0
 REM Category:	Mobile-IOS
 REM Source: https://github.com/cyb3rw07f/hak5-rubberduckyusb-payloads
+REM Encode your payload at https://encoder.hak5.org
 
-REM Put your link down there
+REM Put your link down here
 DEFINE TARGET_URL https://example.com
 
-REM Please note that the target must have
-REM "Full Keyboard Access" turned on,
-REM or else the payload could possibly not work.
-
 DELAY 1500
-GUI h
-DELAY 1000
-GUI SPACE
-DELAY 250
-STRING TARGET_URL
-DELAY 70
-TAB
-DELAY 70
+COMMAND SPACE
+DELAY 300
+STRING safari
+DELAY 300
 ENTER
-DELAY 150
+DELAY 300
+COMMAND l
+DELAY 200
+STRING TARGET_URL
+DELAY 400
 ENTER
