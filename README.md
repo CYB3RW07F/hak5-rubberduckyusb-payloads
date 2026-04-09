@@ -8,7 +8,7 @@ This repo contains ready-to-use payloads that simulate keyboard input to automat
 
 ## ⚠️ Disclaimer
 
-All payloads are provided for **educational and authorized testing purposes only**. Do not use these scripts on systems you do not own or have explicit permission to test. For more information, please consult the extended disclaimer [here](https://github.com/CYB3RW07F/hak5-rubberduckyusb-payloads/DISCLAIMER.md).
+All payloads are provided for **educational and authorized testing purposes only**. Do not use these scripts on systems you do not own or have explicit permission to test. For more information, please consult the extended disclaimer [here](https://github.com/CYB3RW07F/hak5-rubberduckyusb-payloads/blob/main/DISCLAIMER.md).
 
 ## 📂 What's inside?
 
