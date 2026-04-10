@@ -1,4 +1,4 @@
-REM Title: Open Link
+REM Title: Open Link with Safari
 REM Author:	CYB3RW07F
 REM Description: Opens Safari, inputs given link and visits it.
 REM Target:	Apple iOS (iPhone, iPad)
